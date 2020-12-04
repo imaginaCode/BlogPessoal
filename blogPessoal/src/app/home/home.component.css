@@ -1,3 +1,12 @@
-p{
-    font-size: 200px;
+
+
+.parallax{
+    background-image: url('https://arquivo.devmedia.com.br/marketing/img/guia-desenvolvimento-de-jogos-37332.png');
+    min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }

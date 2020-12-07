@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.component';
 import { FeedComponent } from './feed/feed.component';
+import { LoginComponent } from './login/login.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FeedComponent } from './feed/feed.component';
     NavbarComponent,
     FooterComponent,
     PerfilLateralComponent,
-    FeedComponent
+    FeedComponent,
+    LoginComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
